@@ -1,0 +1,192 @@
+{
+  "title": "Indonesia → United States: Top Import Supply Chain Intelligence Dossier",
+  "generated_by": "Comet Assistant Master Intelligence Agent | 1704 Surf Avenue, Belmar, NJ 07719 | (609) 276-3372",
+  "generated_at": "2026-03-11",
+  "model": "claude-opus-4-6 (adaptive thinking)",
+  "task": "Top importing items from Indonesia to American companies — electronics, apparel, rubber, seafood, coffee, furniture, nickel",
+  "trade_summary": {
+    "us_imports_from_indonesia_2024_usd_billions": 28.1,
+    "us_exports_to_indonesia_2024_usd_billions": 10.2,
+    "us_trade_deficit_usd_billions": 17.9,
+    "indonesia_rank_as_us_import_source": "~10th",
+    "current_reciprocal_tariff_rate_pct": 19,
+    "prior_mfn_tariff_range_pct": "0-5",
+    "liberation_day_tariff_apr_2025_pct": 32,
+    "july_2025_deal": "19% reciprocal rate; Indonesia eliminates tariffs on 99%+ of US products"
+  },
+  "sectors": [
+    {
+      "rank": 1,
+      "sector": "Electrical Machinery & Electronics",
+      "hs_chapters": ["85"],
+      "us_import_value_2024_usd_billions": 4.83,
+      "risk_score": 0.74,
+      "risk_level": "HIGH",
+      "key_products": ["electrical capacitors", "transformers", "electronic components HS8543", "circuit assemblies"],
+      "key_us_companies": ["Apple", "Amazon", "Walmart", "General Electric"],
+      "top_risks": ["transshipment from China scrutiny", "19% tariff on $4.8B exposure", "Section 301/232 follow-on actions"],
+      "growth_note": "HS 8543 grew +167% YoY in H1 2025"
+    },
+    {
+      "rank": 2,
+      "sector": "Nickel & Critical Minerals (Indirect)",
+      "hs_chapters": ["75", "28"],
+      "us_import_value_2024_note": "Minimal direct imports — exposure through battery supply chain",
+      "risk_score": 0.78,
+      "risk_level": "HIGH (Strategic/Geopolitical)",
+      "key_products": ["nickel ore", "battery-grade nickel sulfate", "ferronickel", "HPAL processed nickel"],
+      "key_us_companies": ["General Motors", "Tesla", "Ford Motor Company"],
+      "top_risks": [
+        "80% of battery-grade nickel controlled by Chinese firms",
+        "China buys 82% of Indonesian nickel exports",
+        "IRA Section 45X sourcing conflicts",
+        "Section 232 investigation on processed critical minerals"
+      ],
+      "indonesia_global_share_pct": 56
+    },
+    {
+      "rank": 3,
+      "sector": "Shrimp & Seafood",
+      "hs_chapters": ["03", "16"],
+      "us_import_value_2024_usd_billions": 1.9,
+      "risk_score": 0.62,
+      "risk_level": "MEDIUM-HIGH",
+      "key_products": ["shrimp (frozen/fresh)", "swimming crab", "tuna"],
+      "key_us_companies": ["Red Chamber Group", "Chicken of the Sea Frozen Foods", "Supreme Crab", "Sysco", "US Foods", "Costco", "Walmart"],
+      "top_risks": [
+        "6.3% antidumping margin stacked on 19% reciprocal tariff",
+        "$361M additional annual importer costs",
+        "Competition from India and Ecuador",
+        "Shrimp volumes already declining (-8.61% in 2024)"
+      ],
+      "us_market_share_crabs_pct": 46.8
+    },
+    {
+      "rank": 4,
+      "sector": "Apparel & Textiles",
+      "hs_chapters": ["61", "62", "52", "54"],
+      "us_import_value_2024_usd_billions": 2.5,
+      "risk_score": 0.58,
+      "risk_level": "MEDIUM-HIGH",
+      "key_products": ["knit apparel", "woven garments", "cotton textiles", "synthetic fabrics"],
+      "key_us_companies": ["Nike", "Gap", "Levi Strauss", "Under Armour", "Walmart", "Target", "Macy's", "Nordstrom", "PVH Corp"],
+      "top_risks": [
+        "19% tariff raising sourcing costs",
+        "Labor rights scrutiny",
+        "Freight/logistics risk through Malacca Strait",
+        "Bangladesh and India gaining market share"
+      ],
+      "pct_of_us_brands_sourcing_from_indonesia": 77
+    },
+    {
+      "rank": 5,
+      "sector": "Furniture & Wood Products",
+      "hs_chapters": ["94", "44"],
+      "us_import_value_2024_usd_billions": 1.43,
+      "risk_score": 0.61,
+      "risk_level": "MEDIUM-HIGH",
+      "key_products": ["teak furniture", "bedroom sets", "upholstered seats", "mattresses", "kitchen cabinets"],
+      "key_us_companies": ["Williams-Sonoma", "Wayfair", "RH (Restoration Hardware)", "IKEA", "Home Depot", "Lowe's", "Amazon"],
+      "top_risks": [
+        "19% reciprocal + 30-50% furniture-specific tariffs (Oct 2025)",
+        "Stock market negative reaction (Williams-Sonoma, RH, Wayfair all declined)",
+        "Competition from Vietnam and India"
+      ]
+    },
+    {
+      "rank": 6,
+      "sector": "Rubber & Tires",
+      "hs_chapters": ["40"],
+      "us_import_value_2024_usd_billions": 1.68,
+      "risk_score": 0.44,
+      "risk_level": "MEDIUM",
+      "key_products": ["technically specified natural rubber (TSNR)", "medical gloves", "industrial hoses", "latex"],
+      "key_us_companies": ["Goodyear Tire & Rubber", "Bridgestone Americas", "Medline Industries", "Honeywell"],
+      "top_risks": [
+        "19% tariff adds ~$319M to import costs",
+        "Limited substitution options for tire-grade natural rubber",
+        "Smallholder price volatility (85% of production)"
+      ],
+      "us_market_share_tsnr_pct": 48,
+      "historical_note": "Goodyear operated Sumatra plantations 1917-2005; sold to Bridgestone"
+    },
+    {
+      "rank": 7,
+      "sector": "Footwear",
+      "hs_chapters": ["64"],
+      "us_import_value_2024_usd_billions": 1.4,
+      "risk_score": 0.56,
+      "risk_level": "MEDIUM-HIGH",
+      "key_products": ["athletic footwear", "leather shoes", "lifestyle sneakers", "sandals"],
+      "key_us_companies": ["Nike", "Adidas (US)", "Wolverine Worldwide", "Steve Madden", "Deckers (UGG, HOKA)"],
+      "top_risks": [
+        "Nike sourcing 28% of footwear from Indonesia",
+        "19% reciprocal tariff → $2-10/pair cost increase passed to consumers",
+        "Vietnam offers competitive alternative"
+      ],
+      "nike_indonesia_share_pct": 28
+    },
+    {
+      "rank": 8,
+      "sector": "Coffee, Cocoa & Agro-Industrial",
+      "hs_chapters": ["09", "18", "15"],
+      "us_import_value_2024_usd_millions": 500,
+      "risk_score": 0.32,
+      "risk_level": "LOW-MEDIUM",
+      "key_products": ["Sumatra coffee", "Java coffee", "cocoa butter", "industrial fatty acids", "oleic acids", "cinnamon"],
+      "key_us_companies": ["Starbucks", "Peet's Coffee", "Keurig Dr Pepper", "Hershey's", "Mars Inc.", "Mondelez", "Procter & Gamble", "Unilever USA"],
+      "top_risks": [
+        "Cocoa butter +506.5% growth may attract trade scrutiny",
+        "Climate change impacting Sumatra coffee yields",
+        "19% tariff on specialty agricultural products"
+      ],
+      "us_market_share_oleic_acids_pct": 80.6,
+      "us_market_share_cinnamon_pct": 38.2
+    }
+  ],
+  "risk_summary": {
+    "portfolio_average_risk_score": 0.58,
+    "risk_level": "MEDIUM-HIGH",
+    "highest_risk_sector": "Nickel (Strategic/Geopolitical) — 0.78",
+    "lowest_risk_sector": "Coffee & Agro-Industrial — 0.32",
+    "total_us_import_value_tracked_usd_billions": 17.73,
+    "total_additional_tariff_cost_at_19pct_usd_millions": 3369
+  },
+  "key_findings": [
+    {
+      "category": "tariff",
+      "title": "19% Reciprocal Tariff Permanent Baseline — July 2025",
+      "detail": "The July 2025 US-Indonesia trade deal locked in 19% as the new tariff floor, up from 0-5% MFN. This adds $3.4B+ in annual costs to US importers across all Indonesian categories.",
+      "risk_score": 0.75,
+      "sources": ["https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-the-united-states-and-indonesia-reach-historic-trade-deal/"]
+    },
+    {
+      "category": "geopolitical",
+      "title": "Chinese Control of Indonesian Nickel — US Strategic Vulnerability",
+      "detail": "Chinese firms control 80% of battery-grade nickel production in Indonesia. The US cannot directly tariff Indonesian nickel (lacks midstream refining). This structural dependency threatens US EV supply chain security under IRA mandates.",
+      "risk_score": 0.85,
+      "sources": ["https://thediplomat.com/2025/08/the-ira-has-changed-now-the-us-needs-a-new-nickel-strategy/", "https://www.csis.org/analysis/indonesias-battery-industrial-strategy"]
+    },
+    {
+      "category": "market",
+      "title": "Electronics Transshipment Risk — Chinese Origin Goods via Indonesia",
+      "detail": "HS 8543 (Other Electrical Machinery) from Indonesia grew 167% YoY in H1 2025. This rapid growth may indicate Chinese companies routing goods through Indonesia to avoid Section 301 tariffs. CBP/DOC scrutiny is probable.",
+      "risk_score": 0.80,
+      "sources": ["https://gtaic.ai/trends/us-indonesia-trade-strategic-import-growth-2025"]
+    },
+    {
+      "category": "supplier",
+      "title": "Nike — Critical Indonesia Dependency (28% of Footwear)",
+      "detail": "Nike sources 28% of all footwear from Indonesia. At 19% tariff, Nike faces $150M+ in additional annual costs, partly passed to consumers via $2-10/pair price increases.",
+      "risk_score": 0.55,
+      "sources": ["https://www.cosmosourcing.com/blog/where-does-nike-make-shoes-and-apparel"]
+    },
+    {
+      "category": "regulatory",
+      "title": "Stacked Tariffs on Furniture — Williams-Sonoma, Wayfair, RH Exposed",
+      "detail": "Oct 2025 furniture-specific tariffs (30-50%) layered on 19% reciprocal tariff create 49-69% total tariff burden on Indonesian furniture. Williams-Sonoma, RH, and Wayfair stocks declined on announcement.",
+      "risk_score": 0.65,
+      "sources": ["https://stocktwits.com/news-articles/markets/equity/williams-sonoma-rh-wayfair-stocks-fall-after-hours-as-trump-slaps-tariffs/chDN6TOR3IT"]
+    }
+  ]
+}
