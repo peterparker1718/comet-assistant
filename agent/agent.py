@@ -282,12 +282,11 @@ class MasterAgent:
 
     def __init__(self, verbose: bool = True):
         api_key = os.environ.get("ANTHROPIC_API_KEY")
-        if not api_key:
-            raise ValueError(
-                "ANTHROPIC_API_KEY environment variable is not set. "
-                "Please set it before running the agent."
-            )
-        self.client = anthropic.Anthropic(api_key=api_key)
+        # Let SDK resolve auth (ANTHROPIC_API_KEY env var or SDK defaults)
+        if api_key:
+            self.client = anthropic.Anthropic(api_key=api_key)
+        else:
+            self.client = anthropic.Anthropic()
         self.verbose = verbose
         self.dossier: dict[str, Any] = {
             "generated_at": datetime.now(timezone.utc).isoformat(),
