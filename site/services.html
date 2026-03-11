@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — Comet Assistant</title>
+  <meta name="description" content="Explore Comet Assistant's full suite of AI services: supply chain intelligence, browser automation, agentic research, and accessibility-first design." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<nav aria-label="Main navigation">
+  <a href="index.html" class="nav-brand" aria-label="Comet Assistant home">
+    <span class="logo-icon" aria-hidden="true">&#9732;</span>
+    Comet Assistant
+  </a>
+  <ul class="nav-links" role="list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html" aria-current="page">Services</a></li>
+    <li><a href="intelligence.html">Intelligence</a></li>
+    <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+  </ul>
+</nav>
+
+<main id="main">
+
+  <!-- ===== Page Hero ===== -->
+  <header class="page-hero" aria-labelledby="page-title">
+    <div class="max-w center">
+      <p class="section-label" aria-hidden="true">Our Services</p>
+      <h1 class="section-title" id="page-title">
+        The Full Stack of<br>
+        <span class="gradient-text">Agentic Intelligence</span>
+      </h1>
+      <p class="section-desc" style="margin:0 auto;">
+        From browser automation to deep supply chain dossiers, every service is built
+        around autonomous AI agents that work continuously on your behalf.
+      </p>
+    </div>
+  </header>
+
+  <!-- ===== Master Agent ===== -->
+  <section class="max-w" aria-labelledby="master-agent-heading">
+    <div class="two-col">
+      <div>
+        <p class="section-label" aria-hidden="true">Core Platform</p>
+        <h2 class="section-title" id="master-agent-heading">
+          Master Agentic Agent
+        </h2>
+        <p style="color:var(--text-muted);margin-bottom:1.5rem;">
+          Our flagship orchestration layer. The Master Agent uses Claude Opus 4.6 with
+          adaptive thinking to coordinate a network of specialized sub-agents — each
+          assigned a discrete task, returning structured results to the orchestrator
+          for synthesis and delivery.
+        </p>
+        <ul role="list" aria-label="Master agent capabilities">
+          <li class="check-item">
+            <span class="check-icon" aria-hidden="true">&#10003;</span>
+            <div>
+              <strong>Adaptive Reasoning</strong>
+              <p style="font-size:0.9rem;color:var(--text-muted);margin-top:3px;">
+                Claude Opus 4.6 with adaptive thinking dynamically allocates reasoning depth to task complexity.
+              </p>
+            </div>
+          </li>
+          <li class="check-item">
+            <span class="check-icon" aria-hidden="true">&#10003;</span>
+            <div>
+              <strong>Sub-Agent Orchestration</strong>
+              <p style="font-size:0.9rem;color:var(--text-muted);margin-top:3px;">
+                Spawns specialized agents for web research, document analysis, data extraction, and more.
+              </p>
+            </div>
+          </li>
+          <li class="check-item">
+            <span class="check-icon" aria-hidden="true">&#10003;</span>
+            <div>
+              <strong>Tool Use &amp; Web Search</strong>
+              <p style="font-size:0.9rem;color:var(--text-muted);margin-top:3px;">
+                Integrated web search, web fetch, and code execution tools for live intelligence gathering.
+              </p>
+            </div>
+          </li>
+          <li class="check-item">
+            <span class="check-icon" aria-hidden="true">&#10003;</span>
+            <div>
+              <strong>Structured Output Delivery</strong>
+              <p style="font-size:0.9rem;color:var(--text-muted);margin-top:3px;">
+                Results delivered in validated JSON, Markdown reports, or PDF dossiers.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="terminal" role="region" aria-label="Agent code example">
+          <div class="terminal-bar" aria-hidden="true">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+            <span class="terminal-title">master_agent.py</span>
+          </div>
+          <pre class="terminal-body" tabindex="0" aria-label="Python code for master agentic agent">
+<span class="line comment"># Master Agentic Agent — Comet Assistant</span>
+<span class="line keyword">from</span> <span class="string">anthropic</span> <span class="keyword">import</span> Anthropic
+
+<span class="line">agent = MasterAgent(</span>
+<span class="line">    model=<span class="string">"claude-opus-4-6"</span>,</span>
+<span class="line">    thinking={<span class="string">"type"</span>: <span class="string">"adaptive"</span>},</span>
+<span class="line">    subagents=[</span>
+<span class="line">        <span class="string">"web-researcher"</span>,</span>
+<span class="line">        <span class="string">"doc-analyst"</span>,</span>
+<span class="line">        <span class="string">"risk-scorer"</span>,</span>
+<span class="line">        <span class="string">"report-writer"</span>,</span>
+<span class="line">    ]</span>
+<span class="line">)</span>
+<span class="line output">
+# Dispatching 4 sub-agents...
+# [web-researcher]  &#10003; 12 sources indexed
+# [doc-analyst]     &#10003; 3 dossiers parsed
+# [risk-scorer]     &#10003; Risk: MEDIUM (0.42)
+# [report-writer]   &#10003; Report ready</span></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" role="separator"></div>
+
+  <!-- ===== Service Cards ===== -->
+  <section class="max-w" aria-labelledby="services-grid-heading">
+    <div class="section-header center">
+      <p class="section-label" aria-hidden="true">All Services</p>
+      <h2 class="section-title" id="services-grid-heading">
+        Built for Every<br>
+        <span class="gradient-text">Intelligence Need</span>
+      </h2>
+    </div>
+    <div class="card-grid" role="list">
+
+      <article class="card" role="listitem" aria-labelledby="svc1-title">
+        <div class="card-icon" aria-hidden="true">&#127758;</div>
+        <h3 id="svc1-title">Supply Chain Dossiers</h3>
+        <p>Deep-dive regional reports on supplier networks, logistics routes, and
+           geopolitical exposure. Current focus: Indonesia &amp; Sumatra palm oil,
+           nickel, and timber supply chains.</p>
+        <div class="tags" aria-label="Related topics">
+          <span class="tag">Indonesia</span>
+          <span class="tag">Sumatra</span>
+          <span class="tag">Risk Scoring</span>
+        </div>
+      </article>
+
+      <article class="card" role="listitem" aria-labelledby="svc2-title">
+        <div class="card-icon" aria-hidden="true">&#128640;</div>
+        <h3 id="svc2-title">Browser Automation</h3>
+        <p>Universal text-control browser automation for any web portal. Designed for
+           blind-accessible operation — full screen reader compatibility and
+           keyboard-only navigation built in.</p>
+        <div class="tags" aria-label="Related topics">
+          <span class="tag">Accessibility</span>
+          <span class="tag">WCAG 2.1</span>
+          <span class="tag">Automation</span>
+        </div>
+      </article>
+
+      <article class="card" role="listitem" aria-labelledby="svc3-title">
+        <div class="card-icon" aria-hidden="true">&#128203;</div>
+        <h3 id="svc3-title">GitHub Intelligence Indexing</h3>
+        <p>Scan, index, and analyze GitHub repositories to discover technology stacks,
+           third-party dependencies, and open-source supply chain exposure across
+           your vendor ecosystem.</p>
+        <div class="tags" aria-label="Related topics">
+          <span class="tag">SBOM</span>
+          <span class="tag">Open Source</span>
+          <span class="tag">Dev Intel</span>
+        </div>
+      </article>
+
+      <article class="card" role="listitem" aria-labelledby="svc4-title">
+        <div class="card-icon" aria-hidden="true">&#9881;</div>
+        <h3 id="svc4-title">Google AI Studio Integration</h3>
+        <p>Pipeline your intelligence tasks through Google AI Studio for multi-model
+           benchmarking, large-context document analysis, and custom model fine-tuning
+           integration.</p>
+        <div class="tags" aria-label="Related topics">
+          <span class="tag">Gemini</span>
+          <span class="tag">Multi-Model</span>
+          <span class="tag">Fine-Tuning</span>
+        </div>
+      </article>
+
+      <article class="card" role="listitem" aria-labelledby="svc5-title">
+        <div class="card-icon" aria-hidden="true">&#128065;</div>
+        <h3 id="svc5-title">Perplexity Research Feeds</h3>
+        <p>Stay current with live Perplexity AI research integration that continuously
+           monitors news, regulatory filings, and market data relevant to your
+           supply chain exposure.</p>
+        <div class="tags" aria-label="Related topics">
+          <span class="tag">Live Data</span>
+          <span class="tag">Monitoring</span>
+          <span class="tag">Alerts</span>
+        </div>
+      </article>
+
+      <article class="card" role="listitem" aria-labelledby="svc6-title">
+        <div class="card-icon" aria-hidden="true">&#128100;</div>
+        <h3 id="svc6-title">Accessible Job Profile Automation</h3>
+        <p>Blind-accessible Indeed profile management and automation — designed with
+           full ARIA compliance, keyboard navigation, and audio feedback for
+           inclusive hiring workflows.</p>
+        <div class="tags" aria-label="Related topics">
+          <span class="tag">ARIA</span>
+          <span class="tag">Indeed</span>
+          <span class="tag">Inclusive</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== Pricing / Tiers ===== -->
+  <section aria-labelledby="pricing-heading" style="padding:4rem clamp(1rem,5vw,3rem);">
+    <div class="max-w center">
+      <p class="section-label" aria-hidden="true">Tiers</p>
+      <h2 class="section-title" id="pricing-heading">
+        Choose Your<br>
+        <span class="gradient-text">Intelligence Level</span>
+      </h2>
+      <div class="card-grid" style="margin-top:2.5rem;" role="list">
+
+        <article class="card" role="listitem" aria-labelledby="tier1-title" style="border-color:rgba(0,212,255,0.2);">
+          <div style="font-size:0.8rem;font-weight:700;color:var(--text-muted);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.5rem;">Analyst</div>
+          <h3 id="tier1-title" style="font-size:2rem;font-weight:900;margin-bottom:0.25rem;">$499<span style="font-size:1rem;font-weight:400;color:var(--text-muted)">/mo</span></h3>
+          <p style="color:var(--text-muted);margin-bottom:1.5rem;">For independent researchers and small teams.</p>
+          <ul role="list" style="list-style:none;display:flex;flex-direction:column;gap:0.7rem;text-align:left;margin-bottom:1.5rem;">
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> 5 supply chain dossiers/mo</li>
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> Web research agent</li>
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> Perplexity feed</li>
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> Email support</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline" style="width:100%;justify-content:center;">Get Started</a>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="tier2-title" style="border-color:var(--accent);position:relative;">
+          <div style="position:absolute;top:-12px;left:50%;transform:translateX(-50%);">
+            <span class="tag" style="background:linear-gradient(135deg,var(--accent),var(--accent2));color:var(--primary);border:none;">Most Popular</span>
+          </div>
+          <div style="font-size:0.8rem;font-weight:700;color:var(--text-muted);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.5rem;">Operator</div>
+          <h3 id="tier2-title" style="font-size:2rem;font-weight:900;margin-bottom:0.25rem;">$1,499<span style="font-size:1rem;font-weight:400;color:var(--text-muted)">/mo</span></h3>
+          <p style="color:var(--text-muted);margin-bottom:1.5rem;">For operations teams and supply chain professionals.</p>
+          <ul role="list" style="list-style:none;display:flex;flex-direction:column;gap:0.7rem;text-align:left;margin-bottom:1.5rem;">
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> Unlimited dossiers</li>
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> Master Agentic Agent</li>
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> GitHub indexing</li>
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> Browser automation</li>
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> Priority support</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary" style="width:100%;justify-content:center;">Get Started</a>
+        </article>
+
+        <article class="card" role="listitem" aria-labelledby="tier3-title" style="border-color:rgba(123,47,255,0.3);">
+          <div style="font-size:0.8rem;font-weight:700;color:var(--text-muted);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.5rem;">Enterprise</div>
+          <h3 id="tier3-title" style="font-size:2rem;font-weight:900;margin-bottom:0.25rem;">Custom</h3>
+          <p style="color:var(--text-muted);margin-bottom:1.5rem;">For large organizations with complex requirements.</p>
+          <ul role="list" style="list-style:none;display:flex;flex-direction:column;gap:0.7rem;text-align:left;margin-bottom:1.5rem;">
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> Everything in Operator</li>
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> On-premise deployment</li>
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> Custom agent workflows</li>
+            <li style="display:flex;gap:10px;font-size:0.92rem;"><span style="color:var(--accent)">&#10003;</span> SLA + dedicated support</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline" style="width:100%;justify-content:center;">Contact Sales</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="max-w">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-brand" style="display:inline-flex;margin-bottom:0.75rem;" aria-label="Comet Assistant">
+          <span class="logo-icon" aria-hidden="true">&#9732;</span>
+          &nbsp;Comet Assistant
+        </a>
+        <p>AI-powered supply chain intelligence and agentic automation from the Jersey Shore.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="intelligence.html">Intelligence</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Capabilities</h4>
+        <ul role="list">
+          <li><a href="services.html">Agentic AI</a></li>
+          <li><a href="services.html">Supply Chain</a></li>
+          <li><a href="services.html">Automation</a></li>
+          <li><a href="services.html">Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul role="list">
+          <li><a href="tel:6092763372">(609) 276-3372</a></li>
+          <li><a href="contact.html">Send a Message</a></li>
+          <li><a href="https://maps.google.com/?q=1704+Surf+Avenue+Belmar+NJ" target="_blank" rel="noopener">1704 Surf Ave, Belmar NJ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Comet Assistant. All rights reserved.</p>
+      <p>1704 Surf Avenue, Belmar, NJ 07719</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
